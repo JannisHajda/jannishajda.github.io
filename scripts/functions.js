@@ -11,7 +11,8 @@ const GitHubProjects = async () => {
     json.forEach(repo => {
       let li = document.createElement("li");
       let a = document.createElement("a");
-      a.setAttribute("href", repo.url);
+      a.setAttribute("href", repo.html_url);
+      a.setAttribute("target", "_blank");
       a.appendChild(document.createTextNode(repo.name));
 
       let p = document.createElement("p");
