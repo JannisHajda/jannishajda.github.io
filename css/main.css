@@ -7,29 +7,31 @@ html {
 
 body {
   display: flex;
-  justify-content: center;
   flex-flow: column;
   align-items: center;
-  margin: 25px 0;
+  margin: 75px 0;
   width: 100%;
   color: #000;
 }
 
 .container {
   margin: 0 50px;
-  max-width: 600px;
+  max-width: 580px;
 }
 
 h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+h2 {
   font-size: 45px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
 
-h2 {
-  font-size: 35px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+h3 {
+  font-size: 20px;
 }
 
 p {
@@ -38,34 +40,19 @@ p {
   margin: 10px 0;
 }
 
-p a {
+a {
+  font-size: 18px;
   color: #000;
-  font-weight: 600;
 }
 
-ul#gitProjects {
-  display: block;
-  font-size: 18px;
+ul {
   list-style-position: inside;
 }
 
-ul#gitProjects li {
-  margin: 10px 0;
+ul li {
+  padding: 5px;
 }
 
-ul#gitProjects li p {
+ul p {
   display: inline;
-}
-
-footer {
-  width: 100%;
-  text-align: center;
-  margin: 50px 0;
-  color: #a9a9a9;
-}
-
-footer a {
-  font-size: 15px;
-  font-weight: normal;
-  color: #a9a9a9;
 }
